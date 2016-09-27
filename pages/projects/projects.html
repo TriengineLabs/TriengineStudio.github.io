@@ -1,0 +1,61 @@
+<!DOCTYPE html> 
+<html>
+
+	<head>
+		<meta name="viewport" content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no, initial-scale=1">
+		<link rel="icon" type="image/png" href="../../recources/faviction.png">
+
+		<title> Projects </title>
+		<script src = "projectsscript.js"></script>	
+		<script src = "../../menu.js"></script>
+		<link rel="stylesheet" type = "text/css" href = "../../stylesheet.css">
+		<link rel="stylesheet" type = "text/css" href = "projectsstyle.css">
+		<link rel="import" href="dectobin/dectobin.html">
+	</head>
+	<body onload="init()">
+		<div class = "sideLeft">
+			<header>
+				<a href="/"> <img src="../../recources/logo.png" alt="Triengine" id="logo"></a>
+			</header>
+
+			<nav>
+
+				<input type="button" class="menuButton" value="Home" name="HomeButton" onClick="home()" id = "homeButton">
+				<input type="button" class="menuButton" value="Projects" name="ProjButton" onClick="proj()" id = "projButton">
+				<input type="button" class="menuButton" value="News" name="NewsButton" onClick="news()" id = "newsButton">
+
+			</nav>
+		</div>
+		
+		<input type="checkbox" id="nav-trigger" class="nav-trigger" />
+		<label for="nav-trigger"> </label>
+		
+		<div class="site-wrap">
+			<article>
+
+				<h1> Our Projects </h1>
+
+				<div class = "accordionApp" id = "dectobin">
+					<h2>Decimal to Binary Converter</h2>
+					<iframe src="dectobin/dectobin.html" class = "app"> </iframe>
+				</div>
+				<div class = "accordionApp" id = "primecheck">
+					<h2>Prime number checker</h2>
+					<iframe src="primecheck/primecheck.html" class = "app"> </iframe>
+				</div>
+				<div class = "accordionApp" id = "primesum">
+					<h2>Sum of prime numbers calculator</h2>
+					<iframe src="primesum/primesum.html" class = "app"> </iframe>
+				</div>
+
+			</article>
+			<footer>
+					
+				<p id = "copyright"> Copyright &#169; Triengine</p>
+
+			</footer>
+		</div>
+	</body>
+
+
+</html>

@@ -1,0 +1,11 @@
+#homeButton {
+	color: white;
+    background:  transparent;
+    border-left-color: #ccccb2;
+}
+.menuButton:hover {
+	
+    background-color: transparent;
+    color: white;
+    cursor: pointer;
+}

@@ -1,0 +1,9 @@
+body{
+	min-height: auto;
+	background-color: transparent;
+}
+
+#answer {
+
+	min-height: 100px;
+}
